@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # employee-management-system
 Test project
 
@@ -23,3 +24,7 @@ B. Build, run and test frontend application (hot deployment)
     2. ng serve --port=8080
 C. opne browser and enter below URL
     http://localhost:8080/
+=======
+# shoppingcart
+shopping-cart-service
+>>>>>>> branch 'master' of https://github.com/dinesh2016b/shoppingcart.git
