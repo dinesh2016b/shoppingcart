@@ -1,0 +1,17 @@
+logging:
+  level:
+    org:
+      springframework: DEBUG
+    root: ERROR
+server:
+  port: 8090
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      profile: default
+      server:
+        git:
+          searchPaths: configuration
+          uri: file:///D:/workspacedocker/configuration

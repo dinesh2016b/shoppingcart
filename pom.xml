@@ -18,9 +18,13 @@
 		<java.version>17</java.version>
 		<spring-cloud.version>2022.0.4</spring-cloud.version>
 	</properties>
-	
+
 	<modules>
 		<module>eureka-server</module>
+		<module>gateway-server</module>
+		<module>config-server</module>
+		<module>product-api-service</module>
+		<module>order-api-service</module>
 	</modules>
 	<build>
 		<plugins>
